@@ -7,9 +7,10 @@ def toFixed(numObj, digits=0):
     return f"{numObj:.{digits}f}"
 
 nodes_list = open('nodes.txt').read().split('\n')
-nodes_count = int(toFixed(len(nodes_list)/2,0))
+nodes_count = int(len(nodes_list)/2)
 i = 0
 n = 1
+
 print("=========================================================================")
 print("Imported nodes:", nodes_count)
 print("=========================================================================")
@@ -43,3 +44,4 @@ while True:
     nodes_list = open('nodes.txt').read().split('\n')
     nodes_count = int(toFixed(len(nodes_list)/2,0))
     i = 0
+    n = 1
