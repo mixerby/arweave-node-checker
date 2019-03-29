@@ -1,0 +1,6 @@
+node1-ip
+node1-wallet
+node2-ip
+node2-wallet
+nodeX-ip
+nodeX-wallet
