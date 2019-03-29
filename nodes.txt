@@ -1,6 +1,6 @@
-node1-ip
-node1-wallet
-node2-ip
-node2-wallet
-nodeX-ip
-nodeX-wallet
+node1_ip_address
+node1_wallet_address
+node2_ip_address
+node2_wallet_address
+nodeX_ip_address
+nodeX_wallet_address
