@@ -13,7 +13,7 @@ i = 0
 n = 1
 
 print("=========================================================================")
-print("Arweave node checker by @mixerby")
+print("Arweave node checker")
 print("Imported nodes:", nodes_count)
 print("=========================================================================")
 
