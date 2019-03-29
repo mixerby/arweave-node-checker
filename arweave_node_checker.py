@@ -13,6 +13,7 @@ i = 0
 n = 1
 
 print("=========================================================================")
+print("Arweave node checker by @mixerby")
 print("Imported nodes:", nodes_count)
 print("=========================================================================")
 
@@ -24,6 +25,7 @@ while True:
         node_balance = requests.get(node_wallet)
         print("Node", n, "info:")
         print("IP:", nodes_list[i])
+        print("Release:", node_info['release'])
         print("Height:", node_info['height'])
         print("Current:", node_info['current'])
         print("Blocks:", node_info['blocks'])
