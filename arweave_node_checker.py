@@ -6,6 +6,7 @@ import time
 def toFixed(numObj, digits=0):
     return f"{numObj:.{digits}f}"
 
+starttime = time.time()
 nodes_list = open('nodes.txt').read().split('\n')
 nodes_count = int(len(nodes_list)/2)
 i = 0
@@ -14,8 +15,6 @@ n = 1
 print("=========================================================================")
 print("Imported nodes:", nodes_count)
 print("=========================================================================")
-
-starttime = time.time()
 
 while True:
     while nodes_count > 0:
